@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IT Kongress</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/appl.js" async></script>
+</head>
+
+<body class="body">
+
+<div class="header-bar row">
+    <div class="logo-box col-2">
+       <img class="logo" src="logo/logo1.png"></a>
+    </div>
+    <div class="logo-box col-2" id="menu-icon">
+        <img class="menu" src="bilder/menu2.png" onclick="openMenu()">
+    </div>
+</div>
+
+
+<!------------------------------------------------MENU--------------------------------------------------------------->
+<div class="side-menu" id="side-menu">
+    <p class="title">Menu</p>
+    <div class="row">
+        <div class="col-md-2">
+            <img class="img-rund" src="bilder/job.png">
+        </div>
+        <div class="col-md-10">
+            <p>Job-Portal</p>
+        </div>
+
+        <div class="col-md-2">
+            <img class="img-rund" src="bilder/contacts.png">
+        </div>
+        <div class="col-md-10">
+            <p>Kontaktbuch</p>
+        </div>
+
+        <div class="col-md-2">
+            <img class="img-rund" src="bilder/ranking.png">
+        </div>
+        <div class="col-md-10">
+            <p>Firmen-Ranking</p>
+        </div>
+
+        <div class="col-md-2">
+            <img class="img-rund" src="bilder/download.png">
+        </div>
+        <div class="col-md-10">
+            <p>Downloadbereich</p>
+        </div>
+
+        <div class="col-md-2">
+            <img class="img-rund" src="bilder/download.png">
+        </div>
+        <div class="col-md-10">
+            <p>Programmplan</p>
+        </div>
+    </div>
+
+</div>
+<!---------------------------------------------------------------------------------------------------------------- -->
+    <div class="module">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="title" id="hello-title">Hallo, </br> David Haerle!</p>
+            </div>
+            <div class="col-md-6">
+                <div class=img-box">
+                    <img class="img-rund" id="profilbild-home" src="bilder/ich.png">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <span><p class="subtitle">Studiengang:</p></span>
+                <span><p class="text">IMUK (6.Semester)</p></span>
+            </div>
+            <div class="col-md-6">
+
+                    <img class="icon" id="edit-icon" src="bilder/pencil.png">
+
+
+                <div class="row" id="icon-row">
+                    <div class="col-4">
+                        <a href="kontakteintrag.html"><img id="click-icon" src="bilder/qr.png"></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://de.linkedin.com/"><img id="click-icon" src="bilder/linkedin.png"></a>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://www.xing.com/"><img id="click-icon" src="bilder/xing.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- <div class="module">
+        <p class="title">Deine Shortlinks</p>
+        <div class="row">
+            <div class="col-md-2">
+                <img class="img-rund" src="bilder/green.png">
+            </div>
+            <div class="col-md-10">
+                <p>Job-Portal</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img class="img-rund" src="bilder/grey.png">
+            </div>
+            <div class="col-md-10">
+                <p>Firmen-Ranking</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img class="img-rund" src="bilder/blue.png">
+            </div>
+            <div class="col-md-10">
+                <p>Downloadbereich</p>
+            </div>
+        </div>
+    </div>    -->
+
+    <div class="cardContainer">
+        <div class="container">
+            <div class="row">
+               <div class="col-6 card" id="jobCard">
+                    <img class="card-icon" src="bilder/job.png"></br>
+                    <p>Jobportal</p>
+                </div>
+                <div class="col-6 card" id="downloadCard">
+                    <img class="card-icon" src="bilder/contacts.png"></br>
+                    <p>Kontaktbuch</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="cardContainer">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 card" id="jobCard">
+                <img class="card-icon" src="bilder/ranking.png"></br>
+                <p>Ranking</p>
+            </div>
+            <div class="col-6 card" id="downloadCard">
+                <img class="card-icon" src="bilder/download.png"></br>
+                <p>Downloads</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="module" id="table-module">
+        <p class="title">Deine Stationen</p>
+        <table class="table">
+            <tr>
+                <th>Was?</th>
+                <th>Wann?</th>
+                <th>Wo?</th>
+            </tr>
+            <tr>
+                <td>Digitales Marketing</td>
+                <td>12:00 Uhr</td>
+                <td>Hoersaal A</td>
+            </tr>
+            <tr>
+                <td>KI im Alltag</td>
+                <td>13:30 Uhr</td>
+                <td>Hoersaal B</td>
+            </tr>
+            <tr>
+                <td>Sind unsere Daten sicher?</td>
+                <td>15:00 Uhr</td>
+                <td>B. 127</td>
+            </tr>
+            <tr>
+                <td>Projektmanagement 4.0</td>
+                <td>17:00 Uhr</td>
+                <td>Hoersaal A</td>
+            </tr>
+            <tr>
+                <td>Bewerbungsgespräch mit Firma xy</td>
+                <td>18:00 Uhr</td>
+                <td>A.168</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+        <div class="row">
+            <div class="col-4" id="footer-element">
+                About
+            </div>
+            <div class="col-4" id="footer-element">
+                Impressum
+            </div>
+            <div class="col-4" id="footer-element">
+                Website
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

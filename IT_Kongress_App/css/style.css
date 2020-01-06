@@ -1,0 +1,231 @@
+.header-bar{
+    background-color: #62707a;
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body{
+    background-color: #eeeeee;
+}
+
+.logo{
+    width: 100%;
+    height: 90%;
+}
+
+.menu{
+    width: 70%;
+}
+
+#menu-icon{
+    margin-left: 60%;
+    margin-top: 2%;
+}
+
+.logo-box{
+    position: absolute;
+    margin-left: 5%;
+}
+
+
+.module {
+    background-color: white;
+    width: 90%;
+    hight: auto;
+    font-size: 42px;
+    font-family: Arial;
+    margin-left: 6%;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#table-module{
+    height: 600px;
+    overflow: scroll;
+    margin-bottom: 12%;
+}
+
+#profilbild-home{
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+}
+
+.img-rund{
+    width: 70%;
+    margin-left: 35%;
+    margin-top: 20%;
+}
+
+#edit-icon{
+    margin-left: 60%;
+    width: 25%;
+    margin-top: 10%;
+}
+
+.title{
+    margin-top: 8%;
+    margin-left: 5%;
+    font-family: "Arial Black";
+    position: relative;
+}
+
+#hello-title{
+    font-family: "Arial Black";
+    margin-left: 10%;
+}
+
+.subtitle{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 38px;
+
+}
+
+.text{
+    margin-left: 10%;
+    font-size: 38px;
+    margin-bottom: 20%;
+}
+#text-fluid{
+    margin-right: 10%;
+}
+
+.button{
+    width: 40%;
+    border-radius: 120px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    overflow: hidden;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.icon{
+    width: 30%;
+}
+
+#click-icon{
+    width: 85%;
+    text-align: center;
+   margin-left: -30%;
+}
+
+#icon-row{
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+
+.table{
+    overflow: scroll;
+    margin-left: 5%;
+}
+
+.footer{
+    background-color: #62707a;
+    height: 120px;
+    bottom: 0px;
+}
+
+#footer-element{
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.big-element{
+    text-align: center;
+}
+
+#plus-icon{
+    width: 60%;
+}
+
+#contact-module{
+    margin-bottom: 10%;
+}
+
+#qr-code{
+    margin-bottom: 15%;
+}
+
+#side-menu{
+    background-color: white;
+    height: 2000px;
+    font-family: Arial;
+    font-size: 42px;
+    width: 100%;
+    display: none;
+    z-index: 10000;
+    float: right;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    font-size: 42px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#jobCard{
+    margin-left: -10%;
+}
+
+#downloadCard{
+    margin-left: 10%;
+}
+.card-icon{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: 200px;
+}
+
+.firmenname{
+    margin-top: 10%;
+}
+.firmenlogo{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 60%;
+}
+.firmenzeile{
+    border-bottom: 1px solid #62707a;
+}
+
+.name{
+    margin-top: 10%;
+}
+.profilbild{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 60%;
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+}
+
+.kontaktzeile{
+    border-bottom: 1px solid #62707a;
+}
+
+/*#contact-module{
+    height: 1390px;
+    overflow: scroll;
+}*/
+#new-contact{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+div.col-md-10{
+    margin-top: 5%;
+}
+
