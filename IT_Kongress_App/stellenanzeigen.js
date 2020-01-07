@@ -32,7 +32,7 @@ if (that.value=="Werkstudent") {
 
 if (that.value=="BaMa") {
   document.getElementById("ber").style.display = "none";
-    document.getElementById("abs").style.display = "abs";
+    document.getElementById("abs").style.display = "block";
   document.getElementById("pr").style.display = "none";
      document.getElementById("wkstd").style.display = "none";
 }
