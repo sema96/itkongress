@@ -1,7 +1,7 @@
 function checkUser(){
     var name = document.getElementById("user").value;
     var password = document.getElementById("password").value;
-    var branche = document.getElementById("branche").value;
+    var studiengang = document.getElementById("studiengang").value;
     var settings = {
 
         "async": true,
@@ -18,10 +18,10 @@ function checkUser(){
         var laenge = response.length;
         console.log(laenge);
         for(i=0;i<laenge;i++){
-            if(response[i].user == name){
-                alert("Dieser User ist bereits registriert.");
+            if(response[i].user == name && response[i].password == password){
+               window.location.href ="Home.html";
             } else{
-                login();
+                window.location.href ="Register.html";
             }
             console.log("Schlüssel: " +response[i].user+ "mit Wert"+ response[i].password);
         }
