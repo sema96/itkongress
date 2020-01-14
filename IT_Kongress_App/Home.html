@@ -4,17 +4,21 @@
     <title>IT Kongress</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/appl.js" async></script>
 </head>
 
-<body class="body">
+<div class="body">
 
+<div class="container">
 <div class="header-bar row">
-    <div class="logo-box col-2">
-       <img class="logo" src="logo/logo1.png"></a>
-    </div>
-    <div class="logo-box col-2" id="menu-icon">
-        <img class="menu" src="bilder/menu2.png" onclick="openMenu()">
+    <div class="logo-box col-12">
+        <div class="float-left">
+         <img class="logo" src="logo/logo1.png"></a>
+        </div>
+        <div class="float-right" id="menu-icon">
+        <img class="float-right margin-right margin-top" id="menu-icon" src="bilder/menu2.png" onclick="openMenu()">
+        </div>
     </div>
 </div>
 
@@ -62,40 +66,36 @@
 </div>
 <!---------------------------------------------------------------------------------------------------------------- -->
     <div class="module">
-        <div class="row">
-            <div class="col-md-6">
-                <p class="title" id="hello-title">Hallo, </br> David Haerle!</p>
+
+            <div class="col-md-8">
+                <p class="title float-left margin-top" id="hello-title">Hallo, </br> David Haerle!</p>
             </div>
-            <div class="col-md-6">
-                <div class=img-box">
-                    <img class="img-rund" id="profilbild-home" src="bilder/ich.png">
-                </div>
+            <div class="col-md-4">
+                <img class="icon float-right margin-top margin-right" id="edit-icon" src="bilder/pencil.png">
             </div>
+
+        <div class="img-box center col-md-12">
+            <img class="img-rund margin-top" id="profilbild-home" src="bilder/ich.png">
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <span><p class="subtitle">Studiengang:</p></span>
                 <span><p class="text">IMUK (6.Semester)</p></span>
             </div>
-            <div class="col-md-6">
-
-                    <img class="icon" id="edit-icon" src="bilder/pencil.png">
-
-
-                <div class="row" id="icon-row">
-                    <div class="col-4">
-                        <a href="kontakteintrag.html"><img id="click-icon" src="bilder/qr.png"></a>
-                    </div>
-                    <div class="col-4">
-                        <a href="https://de.linkedin.com/"><img id="click-icon" src="bilder/linkedin.png"></a>
-                    </div>
-                    <div class="col-4">
-                        <a href="https://www.xing.com/"><img id="click-icon" src="bilder/xing.png"></a>
-                    </div>
-                </div>
+        </div>
+        <div class="row" id="icon-row">
+            <div class="col-4 margin-bottom margin-top center">
+                <a href="kontakteintrag.html"><img id="click-icon" src="bilder/qr.png"></a>
+            </div>
+            <div class="col-4 margin-bottom margin-top">
+                <a href="https://de.linkedin.com/"><img id="click-icon" src="bilder/linkedin.png"></a>
+            </div>
+            <div class="col-4 margin-bottom margin-top">
+                <a href="https://www.xing.com/"><img id="click-icon" src="bilder/xing.png"></a>
             </div>
         </div>
     </div>
+
    <!-- <div class="module">
         <p class="title">Deine Shortlinks</p>
         <div class="row">
@@ -125,23 +125,23 @@
     </div>    -->
 
     <div class="cardContainer">
-        <div class="container">
+
             <div class="row">
                <div class="col-6 card" id="jobCard">
                     <img class="card-icon" src="bilder/job.png"></br>
                     <p>Jobportal</p>
                 </div>
-                <div class="col-6 card" id="downloadCard">
+                <div class="col-6 card" id="contactCard">
                     <img class="card-icon" src="bilder/contacts.png"></br>
                     <p>Kontaktbuch</p>
                 </div>
             </div>
-        </div>
+
     </div>
 <div class="cardContainer">
-    <div class="container">
+
         <div class="row">
-            <div class="col-6 card" id="jobCard">
+            <div class="col-6 card" id="rankingCard">
                 <img class="card-icon" src="bilder/ranking.png"></br>
                 <p>Ranking</p>
             </div>
@@ -150,12 +150,12 @@
                 <p>Downloads</p>
             </div>
         </div>
-    </div>
+
 </div>
 
 
     <div class="module" id="table-module">
-        <p class="title">Deine Stationen</p>
+        <p class="title margin-top margin-left">Deine Stationen</p>
         <table class="table">
             <tr>
                 <th>Was?</th>
@@ -194,7 +194,7 @@
 
 
     <div class="footer">
-        <div class="container">
+
         <div class="row">
             <div class="col-4" id="footer-element">
                 About
@@ -206,10 +206,10 @@
                 Website
             </div>
         </div>
-        </div>
+
     </div>
 
-
+</div>
 </body>
 
 </html>
