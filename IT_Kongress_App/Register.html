@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Registrieren</title>
+    <script src= "demo.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-<div><input type="text" id="user"  placeholder="UserName"></div>
-<div><input type="text" id="password"  placeholder="Passwort"></div>
-<div><input type="text" id="vorname"  placeholder="Vorname"></div>
-<div><input type="text" id="nachname"  placeholder="Nachname"></div>
-<div><input type="text" id="studiengang"  placeholder="Studiengang"></div>
+<div id ="register" role="page">
+    <input type="text" id="user" placeholder="UserName"><br/>
+    <input type="text" id="password" placeholder="Passwort"> <br/>
+    <input type="text" id="vorname" placeholder="Vorname"> <br/>
+    <input type="text" id="nachname" placeholder="Nachname"><br/>
+    <input type="text" id="studiengang" placeholder="Studiengang"><br/>
+    <button onclick="userAnlegen()">Registrieren</button>
+</div>
 
-<div><button onclick="login()">Registrieren</button></div>
+<div id="login" role="page">
+    <input type="text" id="user" placeholder="UserName"><br/>
+    <input type="text" id="password" placeholder="Passwort"><br/>
+    <button onclick="checkUser()">Login</button><br/>
+</div>
 
 </body>
 </html>

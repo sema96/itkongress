@@ -1,3 +1,18 @@
+
+var currentPage = 'login';
+
+function showPage(page) {
+    $('#'+currentPage).hide();
+    $('#'+page).show();
+    currentPage = page;
+}
+
+$(document).ready(function() {
+    $('div[role=page]').hide();
+    showPage(currentPage)
+});
+
+
 function checkUser(){
     var name = document.getElementById("user").value;
     var password = document.getElementById("password").value;
@@ -19,9 +34,9 @@ function checkUser(){
         console.log(laenge);
         for(i=0;i<laenge;i++){
             if(response[i].user == name && response[i].password == password){
-               window.location.href ="Home.html";
+                showPage('login');
             } else{
-                window.location.href ="Register.html";
+                showPage('registrieren');
             }
             console.log("Schlüssel: " +response[i].user+ "mit Wert"+ response[i].password);
         }
@@ -30,7 +45,7 @@ function checkUser(){
     });
 }
 
-function login(){
+function userAnlegen(){
     var name = document.getElementById("user").value;
     var password = document.getElementById("password").value;
     var branche = document.getElementById("branche").value;
