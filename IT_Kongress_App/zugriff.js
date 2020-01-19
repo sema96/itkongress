@@ -111,19 +111,17 @@ function bew(){
 }
 
   $.ajax(settingsvor).done(function (response) {
+  document.getElementById('content').innerHTML = "";
     var laenge = response.length;
     for(i=0;i<laenge;i++){
 
       var a=parseInt(response[i].IDVortrag);
-      var p=a;
-      var n=a;
-      var g=a;
-      var s=a;
 
-      $('#content').append('<p>'+ response[i].Titel +
-      ' <button onclick="pbewerten(this.id)" id=' +p+'></button> <em id='+
-      g+'>'+response[i].pBewertung+' </em><button onclick="nbewerten()" id='+n+'> ☹ </button> <em id='+s+'>'+
-      response[i].nBewertung+'</em></p>');
+
+      $('#content').append('<p id= a>'+ response[i].Titel +
+      '     <img onclick="pbewerten(this.id)" id='+a+' src="bilder/psmiley.png"><em id=p'+
+      a+'>   '+response[i].pBewertung+'</em>     <img onclick="nbewerten(this.id)" id='+a+' src="bilder/nsmiley.png"><em id=n'+a+'>   '+
+      response[i].nBewertung+' </em></p>');
 
  }
 });
@@ -143,6 +141,7 @@ function pbewerten(clicked_id){
 }
 
     var b;
+    var idd;
 
   $.ajax(settingsvor).done(function (response) {
 
@@ -152,6 +151,8 @@ function pbewerten(clicked_id){
 
       if (clicked_id == response[i].IDVortrag){
        b=parseInt(response[i].pBewertung+1);
+       idd=response[i]._id;
+       document.getElementById("p"+clicked_id).innerHTML = b;
 
       }
       else{
@@ -159,12 +160,14 @@ function pbewerten(clicked_id){
       }
 }
 
-    var jsondata = {"pBewertung": b,};
+
+    var jsondata = {"pBewertung": b};
 
     var settings = {
       "async": true,
       "crossDomain": true,
-      "url": "https://itkongress-c690.restdb.io/rest/vortraege/",
+
+      "url": "https://itkongress-c690.restdb.io/rest/vortraege/"+idd,
       "method": "PUT",
       "headers": {
         "content-type": "application/json",
@@ -176,7 +179,66 @@ function pbewerten(clicked_id){
     }
 
     $.ajax(settings).done(function (response) {
-      console.log(response);
+console.log(response);
+
+    });
+
+  });
+
+}
+function nbewerten(clicked_id){
+  var settingsvor = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://itkongress-c690.restdb.io/rest/vortraege",
+  "method": "GET",
+  "headers": {
+    "content-type": "application/json",
+    "x-apikey": "5dfa1a08bf46220df655dc80",
+    "cache-control": "no-cache"
+  }
+}
+
+    var b;
+    var idd;
+
+  $.ajax(settingsvor).done(function (response) {
+
+    var laenge = response.length;
+
+    for(i=0;i<laenge;i++){
+
+      if (clicked_id == response[i].IDVortrag){
+       b=parseInt(response[i].nBewertung+1);
+       idd=response[i]._id;
+       document.getElementById("n"+clicked_id).innerHTML = b;
+
+      }
+      else{
+
+      }
+}
+
+
+    var jsondata = {"nBewertung": b};
+
+    var settings = {
+      "async": true,
+      "crossDomain": true,
+      "url": "https://itkongress-c690.restdb.io/rest/vortraege/"+idd,
+      "method": "PUT",
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": "5dfa1a08bf46220df655dc80",
+        "cache-control": "no-cache"
+      },
+      "processData": false,
+      "data": JSON.stringify(jsondata)
+    }
+
+    $.ajax(settings).done(function (response) {
+console.log(response);
+
     });
 
   });
