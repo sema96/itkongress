@@ -164,7 +164,7 @@ function pbewerten(clicked_id){
     var settings = {
       "async": true,
       "crossDomain": true,
-      "url": "https://itkongress-c690.restdb.io/rest/vortraege/(ObjectID)",
+      "url": "https://itkongress-c690.restdb.io/rest/vortraege/",
       "method": "PUT",
       "headers": {
         "content-type": "application/json",
