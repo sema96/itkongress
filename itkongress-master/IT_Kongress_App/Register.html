@@ -1,0 +1,88 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script src= js/demo.js type="text/javascript"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="header-bar row">
+        <div class="logo-box col-12">
+            <div class="float-left">
+                <img class="logo" src="logo/logo1.png"></a>
+            </div>
+            <div class="float-right" id="menu-icon">
+                <img class="float-right margin-right margin-top" id="menu-icon" src="bilder/menu2.png" onclick="openMenu()">
+            </div>
+        </div>
+    </div>
+
+    <div class="module" id="login-modul" role="page">
+        <div class="col-md-8">
+            <p class="title float-left margin-top" id="hello-title">Du bist neu hier?</p>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top"><input type="text" class="input-field" id="user"  placeholder="UserName"></div>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top"><input type="text" class="input-field" id="password"  placeholder="Passwort"></div>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top"><input type="text" class="input-field" id="vorname"  placeholder="Vorname"></div>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top"><input type="text" class="input-field" id="nachname"  placeholder="Nachname"></div>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top"><input type="text" class="input-field" id="studiengang"  placeholder="Studiengang"></div>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top margin-bottom"> <button class="input-field" id="login-button" onclick="userAnlegen()">Registrieren</button></div>
+        </div>
+    </div>
+
+    <div class="module" id="login-modul">
+        <div class="col-md-8">
+            <p class="title float-left margin-top" id="hello-title">Nicht neu?</p>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top"><input type="text" class="input-field" id="user"  placeholder="UserName"></div>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top"><input type="text" class="input-field" id="password"  placeholder="Passwort"></div>
+        </div>
+        <div class="img-box center col-md-12">
+            <div class="margin-top margin-bottom"><button class="input-field" id="login-button" onclick="checkUser()">Login</button></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+
+        <div class="row">
+            <div class="col-4" id="footer-element">
+                About
+            </div>
+            <div class="col-4" id="footer-element">
+                Impressum
+            </div>
+            <div class="col-4" id="footer-element">
+                Website
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

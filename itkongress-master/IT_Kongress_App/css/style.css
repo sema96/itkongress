@@ -1,0 +1,297 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.header-bar{
+    background-color: #62707a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.body{
+    background-color: #eeeeee;
+
+}
+
+html,body{
+    height:100%;
+}
+
+.margin-top{
+    margin-top: 8%;
+}
+
+.margin-bottom{
+    margin-bottom: 8%;
+}
+.margin-right{
+    margin-right: 5%;
+}
+.margin-left{
+    margin-left: 5%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 33%;
+    margin-botom: 50%;
+    position: relative;
+}
+
+.float-left{
+
+}
+.float-right{
+
+}
+
+#menu-icon{
+    position: relative;
+    width: 35%;
+}
+
+.logo-box{
+    position: relative;
+
+}
+
+
+.module {
+    position: center;
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    font-family: Arial;
+    margin-top: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+#table-module{
+
+    overflow: scroll;
+    margin-bottom: 0%;
+}
+
+#profilbild-home{
+    width: 40%;
+    margin-top: 10%;
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+}
+
+.img-rund{
+    width: 30%;
+    margin-top: 20%;
+}
+
+#edit-icon{
+    width: 15%;
+
+}
+
+.title{
+    margin-left: 5%;
+    font-family: "Arial Black";
+    font-size: 1.5em;
+    position: relative;
+}
+
+
+
+.subtitle{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 1.5em;
+}
+
+.text{
+    margin-left: 5%;
+    font-size: 1.0em;
+    margin-right: 5%;
+}
+
+
+.button{
+    width: 40%;
+    border-radius: 120px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    overflow: hidden;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.icon{
+    width: 30%;
+}
+
+#click-icon{
+    width: 55%;
+
+
+}
+
+#icon-row{
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    overflow: scroll;
+
+}
+
+.footer{
+    background-color: #62707a;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin-bottom: -20%;
+
+}
+
+#footer-element{
+    width: 100%;
+    color: white;
+    font-size: 1.0em;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+
+.big-element{
+    text-align: center;
+}
+
+#plus-icon{
+    width: 60%;
+}
+
+#contact-module{
+    margin-bottom: 10%;
+}
+
+#qr-code{
+    margin-bottom: 15%;
+    width: 60%;
+}
+
+#side-menu{
+    background-color: white;
+    font-family: Arial;
+    width: 100%;
+    display: none;
+    z-index: 10000;
+    float: right;
+}
+
+.card{
+    column-width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
+    font-family: Arial;
+    text-align: center;
+}
+
+
+.card-icon{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 45%;
+}
+
+#new-contact-title{
+    margin-top: 10%;
+}
+
+.firmenname{
+    margin-top: 10%;
+}
+.firmenlogo{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 60%;
+}
+.firmenzeile{
+    border-bottom: 1px solid #62707a;
+}
+
+.name{
+    margin-top: 10%;
+}
+.profilbild{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 60%;
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+}
+
+.kontaktzeile{
+    border-bottom: 1px solid #62707a;
+}
+
+/*#contact-module{
+    height: 1390px;
+    overflow: scroll;
+}*/
+#new-contact{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+div.col-md-10{
+    margin-top: 5%;
+}
+
+td{
+    font-size: 1.0em;
+}
+
+.container{
+    position:relative;
+    min-height:100%;
+    height:auto !important;
+    height:100%;
+}
+
+#login-modul{
+    margin-top: 30%;
+}
+
+.input-field{
+    font-size: 1.3em;
+}
+
+#login-button{
+    border-color: white;
+    color: #1c1c1c;
+    padding-left: 30%;
+    padding-right: 30%;
+    position: center;
+}
+
+.add-button{
+    padding: 15%;
+   margin-left: 30%;
+}
+
+#tr{
+    margin-bottom: 20%;
+}
+
+#content{
+    padding: 5%;
+    overflow: scroll;
+}

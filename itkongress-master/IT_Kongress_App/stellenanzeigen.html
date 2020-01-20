@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+<title> IT Kongress</title>
+    <link href="css/style.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="stellenanzeigen.js" async></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<div class="body">
+
+    <div class="container">
+        <div class="header-bar row">
+            <div class="logo-box col-12">
+                <div class="float-left">
+                    <img class="logo" src="logo/logo1.png"></a>
+                </div>
+                <div class="float-right" id="menu-icon">
+                    <img class="float-right margin-right margin-top" id="menu-icon" src="bilder/menu2.png" onclick="openMenu()">
+                </div>
+            </div>
+        </div>
+
+        <div class="module">
+        <p class="title float-left margin-top" id="hello-title">Stellenanzeigen</p>
+
+
+        <select class="margin-left" onchange="downloadpdf(this);">
+
+        <option value="Alle" selected="selected" >Alle</option>
+         <option value="Praktikum">Praktikum</option>
+         <option value="Werkstudent">Werkstudent</option>
+         <option value="Berufseinstieg/Trainee">Berufseinstieg/Trainee</option>
+          <option value="BaMa">Bachelor/Masterarbeit</option>
+        </select>
+
+        <div class="margin-left margin-right" id="pr" style="display: block;">
+
+
+
+          <a href="stellenanzeige/AMG_Praktikanten_ab_Mitte_Februar_2020_Personalmanagement_m_w_d.pdf"
+           download>
+          AMG: Praktikum Personalmanagement
+          </a>
+
+          <li>
+          <a href="stellenanzeige/AMG_Praktikanten_ab_Mitte_Feburar_2020_User_Interface_Design_m_w_d.pdf"
+           download>
+          AMG: Praktikum User Interface Design
+          </a>
+          </li>
+          <li>
+          <a href="stellenanzeige/AMG_Praktikanten_ab_Mitte_Januar_2020_Entwicklung_Motorapplikation_m_w_d.pdf"
+           download>
+          AMG: Praktikum Entwicklung Motorapplikation
+          </a>
+          </li>
+          <li>
+          <a href="stellenanzeige/Digitalisierung_-_Praktikum_ab_Maerz_2020_in_der_Umsetzung_von_Industrie_4.0_bzw._IT-Loesungen_in_der_Arbeitsvorbereitung_im_Werk_Neu-Ulm.pdf"
+           download>
+          EvoBus GmbH: Praktikum in der Umsetzung von Industrie 4.0
+          </a>
+          </li>
+          <li>
+          <a href="stellenanzeige/Praktikum_im_Bereich_Produktplanung_-management_Integralbusse_w_m_d_am_Standort_Neu-Ulm.pdf"
+           download>
+         EvoBus GmbH: Praktikum im Bereich Produktplanung- und Management Integralbusse
+          </a>
+          </li>
+
+
+        </div>
+
+
+        <div  class="margin-left margin-right" id="ber" style="display: block;">
+          <li>
+          <a href="stellenanzeige/ADLON-Second-Level-Supporter-IT-Betrieb-und-Infrastruktur.pdf"
+           download>
+           adlon: Second level supporter für IT-Betrieb und IT-Infrastruktur
+          </a>
+          </li>
+          <li>
+          <a href="stellenanzeige/Stellenausschreibung_Content_Manager.pdf"
+           download>
+          Thinking Objects: Content Manager
+          </a>
+          </li>
+        </div>
+
+        <div class="margin-right margin-left" id="wkstd" style="display: block;">
+          <li>
+        <a href="stellenanzeige/Werkstudent_m_w_d_Compliance.pdf"
+         download>
+        Athlon Germany GmbH: Werkstudent Compliance
+        </a>
+        </li>
+        <li>
+        <a href="stellenanzeige/ADLON-Werkstudent-Service-Delivery-Management-Ulm.pdf"
+         download>
+        adlon: Werkstudent Service Delivery Management
+        </a>
+        </li>
+
+        <li>
+        <a href="stellenanzeige/Werkstudententaetigkeit_im_Bereich_Messstellenkoordination_4_Zylinder_Otto-Motoren_ab_Maerz_2020.pdf"
+         download>
+        Mercedes-Benz AG: Werkstudent im Bereich Messstellenkoordination 4 Zylinder Otto-Motoren
+        </a>
+        </li>
+
+        </div>
+
+        <div class="margin-right margin-left" id="abs" style="display: block;">
+        <li>
+        <a href="stellenanzeige/Abschlussarbeit im Bereich der numerischen Bildanalyse - Start ab sofort - Job bei Voith Group in Heidenheim a.d. Brenz.pdf"
+         download>
+        Voith Group Abschlussarbeit: Numerische Bildanalyse
+        </a>
+        </li>
+        <li>
+        <a href="stellenanzeige/Bachelorand (w_m_d) im Bereich CarIT Security - Job bei Daimler TSS GmbH in Ulm.pdf"
+         download>
+        Daimer TSS Bachelorarbeit: CarIT Security
+        </a>
+        </li>
+        </div>
+        </div>
+
+        <div class="footer">
+
+            <div class="row">
+                <div class="col-4" id="footer-element">
+                    About
+                </div>
+                <div class="col-4" id="footer-element">
+                    Impressum
+                </div>
+                <div class="col-4" id="footer-element">
+                    Website
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </body>
+</div>
+</html>
