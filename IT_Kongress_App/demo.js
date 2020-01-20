@@ -9,7 +9,7 @@ function showPage(page) {
 
 $(document).ready(function() {
     $('div[role=page]').hide();
-    showPage(currentPage);
+    //showPage(currentPage);
 });
 
 
