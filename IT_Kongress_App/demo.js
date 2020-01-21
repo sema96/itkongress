@@ -1,15 +1,22 @@
-
 var currentPage = 'login';
-
 function showPage(page) {
     $('#'+currentPage).hide();
     $('#'+page).show();
     currentPage = page;
 }
 
-$(document).ready(function() {
+
+
+$(document).ready(function(){
+
     $('div[role=page]').hide();
-    //showPage(currentPage);
+    showPage(currentPage);
+    console.log("alarm")
+});
+$(document).ready(function() {
+    $('div[role = page]').hide();
+    showPage(currentPage);
+    console.log(currentPage);
 });
 
 
@@ -36,7 +43,7 @@ function checkUser(){
             if(response[i].user == name && response[i].password == password){
                 showPage('login');
             } else{
-                showPage('registrieren');
+                showPage('register');
             }
             console.log("Schlüssel: " +response[i].user+ "mit Wert"+ response[i].password);
         }
