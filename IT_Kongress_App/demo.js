@@ -11,7 +11,6 @@ $(document).ready(function(){
 
     $('div[role=page]').hide();
     showPage(currentPage);
-    console.log("alarm")
 });
 $(document).ready(function() {
     $('div[role = page]').hide();

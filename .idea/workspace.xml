@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a021517-8cb6-43a3-8d21-a89c6de7a4a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IT_Kongress_App/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/IT_Kongress_App/Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IT_Kongress_App/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/IT_Kongress_App/demo.js" afterDir="false" />
-    </list>
+    <list default="true" id="0a021517-8cb6-43a3-8d21-a89c6de7a4a9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -117,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -191,15 +187,15 @@
       <workItem from="1579452074172" duration="7767000" />
       <workItem from="1579537229867" duration="1754000" />
       <workItem from="1579595595968" duration="237000" />
-      <workItem from="1579624141020" duration="1104000" />
+      <workItem from="1579624141020" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17799000" />
+    <option name="totallyTimeSpent" value="17970000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" weight="0.20295984" />
